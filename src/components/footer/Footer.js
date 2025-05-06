@@ -18,7 +18,7 @@ function Footer(props) {
   return (
     <div>
       <Slidercop light={props.light} />
-      <div className={`contactfooter ${props.light}`}>
+      <div style={{color:"white"}} className={`contactfooter  ${props.light}`}>
         <div className="container">
           <div className="row">
             <div className="div">
