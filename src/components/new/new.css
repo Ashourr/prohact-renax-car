@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.services {
+  padding: 50px 0 100px 0;
+  overflow-x: hidden;
+  background-color: #222;
+}
+.services.dark {
+  background-color: white;
+}
+.services.light {
+  background-color: #222;
+}
+.services .p {
+  letter-spacing: 5px;
+  color: #f5b754;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
+.services h3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 30px;
+}
+.services h3.dark {
+  color: #000000;
+}
+.services h3 span {
+  color: #f5b754;
+  margin-left: 10px;
+}
+.servicediv {
+  display: flex;
+  justify-content: center;
+}
+.services .service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 250px; */
+  width: 100%;
+}
+.services .service .ser-atim {
+  margin: 10px;
+  width: 290px;
+}
+.services .service .ser-atim .ser-cont {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.services .service .ser-atim .ser-cont .po {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 75px;
+  height: 75px;
+  background-color: #222;
+  z-index: 1;
+  border-radius: 0px 50% 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .service .ser-atim .ser-cont .po.dark {
+  background-color: white;
+}
+.services .service .ser-atim .ser-cont .po p {
+  color: #f5b754;
+  margin: 0;
+  padding: 12px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 3px solid #f5b754;
+  font-weight: 700;
+  transition: 0.4s;
+}
+.services .service .ser-atim .ser-cont:hover .po p {
+  background-color: #f5b754;
+  color: white;
+}
+.services .service .ser-atim img {
+  position: relative;
+  width: 100%;
+  transition: 0.4s;
+}
+.services .service .ser-atim .ser-cont:hover img {
+  transform: scale(1.1);
+}
+.services .service .ser-atim h6 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  font-size: 18px;
+  width: 65%;
+  text-align: end;
+}
+@media (max-width: 992px) {
+  .services .service .ser-atim h6 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 17px;
+    width: 60%;
+    text-align: end;
+  }
+}
+.slick-next:before,
+.slick-prev:before {
+  display: none;
+}

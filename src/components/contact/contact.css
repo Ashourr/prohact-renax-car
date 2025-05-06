@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.contact {
+  padding: 100px 0;
+  background-color: #222;
+}
+.contact h5 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact h5.dark{
+  color: black;
+}
+.contact.dark {
+  background-color: white;
+}
+.contact .form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.contact form {
+  max-width: 400px;
+}
+.contact form .div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact form input {
+  border: 2px solid #999;
+  outline: none;
+  padding: 5px;
+  width: 49%;
+  background-color: transparent;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: white;
+}
+.contact form input.dark{
+  color: black;
+}
+.contact form textarea{
+  width: 100%;
+  border: 2px solid #999;
+  border-radius: 10px;
+  height: 100px;
+  padding: 5px;
+  outline: none;
+  margin: 10px 0;
+  background-color: transparent;
+}
+.contact form .div3 button {
+  padding: 5px 10px;
+  background: #f5b754;
+  border: 2px solid #f5b754;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  transition: 0.4s;
+  font-weight: 500;
+}
+.contact form .div3 button.dark{
+  color: black;
+}
+.contact form .div3 button:hover {
+  background-color: transparent;
+  color: white;
+}
+.contact form .div3 button.dark:hover {
+  color: black;
+}
+.contact .ifr {
+  width: 100%;
+  height: 270px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.contactheder{
+  background-image: url(../../imges/asset\ 39.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 58px);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contactheder::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: calc(100vh - 58px);
+  background-color: #0000008f;
+}
+.contactheder * {
+  z-index: 1;
+}
+.contactheder p {
+  font-size: 10px;
+  color: #f5b754;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+.contactheder h3 {
+  font-size: 45px;
+  color: white;
+}
+.contactheder h3 span {
+  color: #f5b754;
+}

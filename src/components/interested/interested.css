@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.interested {
+  min-height: 70vh;
+  background-image: url(../../imges/asset\ 41.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.interested::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 70vh;
+  padding: 50px 10px;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.interested *{
+  z-index: 1;
+}
+.interested .cont {
+  width: 100%;
+}
+.interested .cont h6 {
+  font-size: 10px;
+  letter-spacing: 5px;
+  color: #f5b754;
+}
+.interested .cont h4 {
+  color: white;
+  font-size: 30px;
+}
+.interested .cont p {
+  color: white;
+  font-size: 15px;
+}
+.interested .cont .bu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 5px;
+}
+.interested .cont .bu a{
+  text-decoration: none;
+}
+.interested .cont .bu .bu1  a{
+  background-color: #f5b754;
+  border: 2px solid #f5b754;
+  color: black;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin: 5px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.interested .cont .bu .bu1 a:hover {
+  background-color: transparent;
+  color: white;
+}
+.interested .cont  .bu .bu2 a {
+  background-color: transparent;
+  border: 2px solid #f5b754;
+  color: white;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin: 5px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.interested .cont .bu2 a:hover {
+  background-color: #f5b754;
+  color: black;
+}

@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.rental {
+  position: relative;
+  min-height: 50vh;
+  padding: 100px 10px;
+  background: url(../../imges/asset\ 39.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rental::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #00000075;
+  top: 0;
+  left: 0;
+}
+.rental h6 {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  color: #f5b754;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  z-index: 1;
+}
+.rental h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  position: relative;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.rental form {
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #222;
+  border-radius: 50px;
+}
+.rental input,
+.rental select {
+  width: 100%;
+  height: 35px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  padding: 0 0 0 10px;
+  font-size: 15px;
+  margin: 5px 0;
+}
+.rental select option {
+  background-color: #1b1b1b;
+  color: white;
+  width: 100%;
+}
+.rental button {
+  width: 100%;
+  background: #f5b754;
+  color: black;
+  padding: 9px;
+  border-radius: 23px;
+  outline: none;
+  border: 2px solid #f5b754;
+  font-weight: 500;
+  transition: 0.4s;
+  margin: 0 6px;
+}
+.rental button:hover {
+  background-color: transparent;
+  color: white;
+}
